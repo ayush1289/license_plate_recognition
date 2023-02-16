@@ -3,7 +3,7 @@ import numpy as np
 import pytesseract
 
 # Load the image
-img = cv2.imread("images_lp/img_11.jpg")
+img = cv2.imread("images_lp/img_1.jpg")
 # img = cv2.resize(img,(300,150))
 # Convert to hsv
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
