@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import pytesseract
 
-# Load the image
+# Load the image 1,4,5,6,8,12
 img = cv2.imread("images_lp/img_12.jpg")
-# img = cv2.resize(img,(300,150))
+img = cv2.resize(img,(170,60))
 # Convert to hsv
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
