@@ -7,7 +7,7 @@ plateCascade = cv2.CascadeClassifier("haarcascade_russian_plate_number.xml")
 minArea = 500
 
 
-count = "3"
+count = "12"
 # cv2.imread is used to read the image file.
 img = cv2.imread(f"dataset_lp/{count}.jpeg")
 
