@@ -20,4 +20,6 @@ res = 255 - cv2.bitwise_and(dlt, msk)
 txt = pytesseract.image_to_string(res, config="--psm 6")
 print(txt)
 
-
+# Display
+cv2.imshow("res", res)
+cv2.waitKey(0)
