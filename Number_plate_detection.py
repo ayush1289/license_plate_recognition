@@ -8,10 +8,7 @@ plateCascade = cv2.CascadeClassifier("haarcascade_russian_plate_number.xml")
 minArea = 500
 count = "2"
 img =cv2.imread(f"dataset_lp/{count}.jpeg")
-# cap.set(3,frameWidth)
-# cap.set(4,franeHeight)
-# cap.set(10,150)
-# count = 0
+
 name = f"img_{count}"
 
 while True:
